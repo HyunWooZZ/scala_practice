@@ -3,7 +3,7 @@
 
 # sbt specific
 dist/*
-target/
+scala_practice/target/
 lib_managed/
 src_managed/
 project/boot/
