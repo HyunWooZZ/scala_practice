@@ -91,4 +91,40 @@ object StringUtils:
   def isNullOrEmpty(s: String): Boolean =
     s == null || s.trim.isEmpty
 
+StringUtils.truncate("hyun Woo", 5)
+StringUtils.containWhitespace("Hyun woo")
+
+// import all utils!
+import StringUtils.*
+truncate("hyun woo", 5)
+containWhitespace(" babo")
+isNullOrEmpty("Complex scala")
+
+// import StringUtils.{truncate, containWhitespace}
+// like above style also can import!
+
+object constantMath:
+  val PI: Float = 3.14159
+  val E: Float = 2.71828
+
+println(constantMath.PI)
+println(constantMath.E)
+
+// Companion Object!
+// if class name or object name are same, they can access all private
+// val or def !!
+// note that object are used for methods and values!!!!
+
+import scala.math.*
+
+case class Circle(radius: Double):
+  def area: Double = Circle.calculateArea(radius)
+
+object Circle:
+  private def calculateArea(radius: Double): Double = Pi * pow(radius, 2.0)
+
+val circle1 = Circle(5.0)
+
+circle1.area
+
 
