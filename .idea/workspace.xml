@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e5c969-f15f-4d7a-8845-abcc271534a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scala_practice/src/main/Hello.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala_practice/src/main/anonymous_func.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala_practice/src/main/method.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala_practice/src/main/HOF_scala.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
