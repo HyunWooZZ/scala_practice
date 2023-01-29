@@ -5,6 +5,11 @@ abstract class IntSet:
   def contains(x: Int): Boolean
   def union(s: IntSet): IntSet
 
+object IntSet:
+  def apply(): Empty = Empty
+  def apply(x: Int) = Empty.incl(x)
+  def apply(x: Int, y: Int) = Empty.incl(x).incl(y)
+
 
 class Empty() extends IntSet:
   def contains(x: Int): Boolean = false
